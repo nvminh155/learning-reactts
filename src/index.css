@@ -1,0 +1,13 @@
+@import url("./common/fonts/roboto.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #FBF8F7;
+}
