@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { DefaultButton } from "@/components/buttons";
 import { useState } from "react";
 import Card from "./card";
+import UserTable from "./table";
 
 const Home = () => {
   const [isClickConnect, setIsClickConnect] = useState<boolean>(false);
@@ -41,7 +42,7 @@ const Home = () => {
         <Card />
         <Card />
       </div>
-
+      <UserTable />
     </div>
   );
 };
