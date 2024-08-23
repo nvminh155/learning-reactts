@@ -4,6 +4,7 @@ import { DefaultButton } from "@/components/buttons";
 import { useState } from "react";
 import Card from "./card";
 import UserTable from "./table";
+import InviteFriends from "./inviteFriends";
 
 const Home = () => {
   const [isClickConnect, setIsClickConnect] = useState<boolean>(false);
@@ -37,6 +38,8 @@ const Home = () => {
         </div>
       </div>
 
+      <InviteFriends />
+      
       <div className="flex gap-6 mt-24">
         <Card />
         <Card />

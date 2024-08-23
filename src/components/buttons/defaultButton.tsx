@@ -20,7 +20,7 @@ export const DefaultButton = ({
   return (
     <button
       type={type}
-      className={className + " flex justify-center items-center"}
+      className={" flex justify-center items-center px-3 py-1 " + className}
       disabled={disabled || loading}
       onClick={onClick}
     >
